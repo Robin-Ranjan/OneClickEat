@@ -67,7 +67,7 @@
                 android:id="@+id/buyAgainButton"
                 android:layout_width="85dp"
                 android:layout_height="30dp"
-                android:layout_marginEnd="32dp"
+                android:layout_marginEnd="25dp"
                 android:background="@drawable/add_to_cart_shape"
                 android:text="Buy Again"
                 android:textAllCaps="false"

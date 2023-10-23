@@ -35,6 +35,21 @@
             app:layout_constraintBottom_toTopOf="@+id/buyAgainFoodPrice"
             app:layout_constraintTop_toTopOf="@+id/buyAgainFoodPrice">
 
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/buyAgainButton"
+                android:layout_width="85dp"
+                android:layout_height="30dp"
+                android:background="@drawable/add_to_cart_shape"
+                android:text="Buy Again"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/cardView5"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="@+id/cardView5"
+                app:layout_constraintTop_toBottomOf="@+id/cardView5" />
+
             <ImageView
                 android:id="@+id/buyAgainFoodImage"
                 android:layout_width="62dp"
@@ -73,12 +88,13 @@
                 app:layout_constraintTop_toBottomOf="@+id/buyAgainFoodName" />
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/cardView5"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:layout_marginEnd="32dp"
                 app:cardBackgroundColor="#09AF10"
                 app:cardCornerRadius="20dp"
-                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginEnd="40dp"
+                app:layout_constraintBottom_toTopOf="@+id/buyAgainButton"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 

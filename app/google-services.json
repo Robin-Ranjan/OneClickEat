@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "523531279700",
+    "firebase_url": "https://admin-food-ordering-8260a-default-rtdb.firebaseio.com",
+    "project_id": "admin-food-ordering-8260a",
+    "storage_bucket": "admin-food-ordering-8260a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523531279700:android:f9e76d9f6bd5898565fcc1",
+        "android_client_info": {
+          "package_name": "com.rajeev.adminfoodordering"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "523531279700-2ajddtobmbmqc862bffja2o0057mkt1g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rajeev.adminfoodordering",
+            "certificate_hash": "7c2029245f612d9bad0e7ef63a88c104d67e323e"
+          }
+        },
+        {
+          "client_id": "523531279700-8jtkt4njv8mnh8n9fbo845cvre62ueio.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBj0rfcXJGfh6L_3k_jc2s0hnHnED2XbmU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "523531279700-8jtkt4njv8mnh8n9fbo845cvre62ueio.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523531279700:android:bed74a5c636a714165fcc1",
+        "android_client_info": {
+          "package_name": "com.rajeev.fooddelivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "523531279700-8jtkt4njv8mnh8n9fbo845cvre62ueio.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBj0rfcXJGfh6L_3k_jc2s0hnHnED2XbmU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "523531279700-8jtkt4njv8mnh8n9fbo845cvre62ueio.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

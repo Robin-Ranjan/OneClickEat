@@ -44,6 +44,7 @@
         android:textSize="20sp" />
 
     <EditText
+        android:id="@+id/email"
         android:layout_width="325dp"
         android:layout_height="57dp"
         android:layout_marginTop="34dp"
@@ -56,6 +57,7 @@
         android:paddingStart="10dp" />
 
     <EditText
+        android:id="@+id/password"
         android:layout_width="325dp"
         android:layout_height="57dp"
         android:layout_marginTop="12dp"
@@ -93,6 +95,7 @@
         android:orientation="horizontal">
 
         <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/googlebtn"
             android:layout_width="152dp"
             android:layout_height="57dp"
             android:layout_marginStart="0dp"
@@ -103,6 +106,7 @@
             android:textAllCaps="false" />
 
         <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/facebookbtn"
             android:layout_width="152dp"
             android:layout_height="57dp"
             android:layout_marginStart="22dp"

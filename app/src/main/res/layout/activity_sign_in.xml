@@ -44,6 +44,7 @@
         android:textSize="21sp" />
 
     <EditText
+        android:id="@+id/userName"
         android:layout_width="325dp"
         android:layout_height="57dp"
         android:layout_marginTop="25dp"
@@ -52,10 +53,11 @@
         android:drawablePadding="10dp"
         android:elevation="5dp"
         android:hint="Name"
-        android:inputType="textPassword"
+        android:inputType="text"
         android:paddingStart="10dp" />
 
     <EditText
+        android:id="@+id/email"
         android:layout_width="325dp"
         android:layout_height="57dp"
         android:layout_marginTop="12dp"
@@ -68,6 +70,7 @@
         android:paddingStart="10dp" />
 
     <EditText
+        android:id="@+id/password"
         android:layout_width="325dp"
         android:layout_height="57dp"
         android:layout_marginTop="12dp"
@@ -105,6 +108,7 @@
         android:orientation="horizontal">
 
         <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnGoogle"
             android:layout_width="152dp"
             android:layout_height="57dp"
             android:layout_marginStart="0dp"
@@ -115,6 +119,7 @@
             android:textAllCaps="false" />
 
         <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnFacebook"
             android:layout_width="152dp"
             android:layout_height="57dp"
             android:layout_marginStart="22dp"

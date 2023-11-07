@@ -60,13 +60,13 @@ class SearchFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        binding = FragmentSearchBinding.inflate(inflater, container, false)
-        adapter = MenuAdapter(
-            filterMenuFoodName, filterMenuItemPrice,
-            filterMenuImage,requireContext())
-        binding.menuRecycler.layoutManager = LinearLayoutManager(requireContext())
-        binding.menuRecycler.adapter = adapter
+//        // Inflate the layout for this fragment
+//        binding = FragmentSearchBinding.inflate(inflater, container, false)
+//        adapter = MenuAdapter(
+//            filterMenuFoodName, filterMenuItemPrice,
+//            filterMenuImage,requireContext())
+//        binding.menuRecycler.layoutManager = LinearLayoutManager(requireContext())
+//        binding.menuRecycler.adapter = adapter
 
         //setup for search view
         setUpSearchView()

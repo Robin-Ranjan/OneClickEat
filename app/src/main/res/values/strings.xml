@@ -2,4 +2,6 @@
     <string name="app_name">foodDelivery</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="default_web_client_id" translatable="false">523531279700-8jtkt4njv8mnh8n9fbo845cvre62ueio.apps.googleusercontent.com</string>
 </resources>

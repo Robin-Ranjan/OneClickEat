@@ -19,12 +19,14 @@
 
     <TextView
         android:id="@+id/detailFoodName"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Food Name"
         android:textColor="@color/black"
-        android:textSize="16sp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:padding="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton" />
@@ -67,7 +69,6 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:padding="10dp"
-        android:text="jnvivjnv inrvuvn vifjvnfinvifenv vefivnfiunvuefv efuvbufvbfuivn  vifvbneruni vefufyruopwrunfpiwv reiuvberpviurn;vinw iwrwvbrivunperv irnviurnvuirn       iunvuipnr;nfnr   nivnprivinwrvirpvu     pvnun"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/textView13"
@@ -87,11 +88,10 @@
         app:layout_constraintTop_toBottomOf="@+id/descriptionTextView" />
 
     <TextView
-        android:id="@+id/textView16"
+        android:id="@+id/ingrediants"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="TextView"
         android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -112,5 +112,5 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+        app:layout_constraintTop_toBottomOf="@+id/ingrediants" />
 </androidx.constraintlayout.widget.ConstraintLayout>
